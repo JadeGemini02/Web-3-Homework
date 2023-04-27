@@ -35,19 +35,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/Assets\/facebook-square-brands.png" : {
-      "ft" : 32768,
-      "iS" : 427,
-      "oA" : 0,
-      "oAP" : "\/Assets\/facebook-square-brands.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/Assets\/Fq8a-98XwAAV5ry 1.png" : {
       "ft" : 32768,
       "iS" : 199714,
@@ -100,32 +87,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/Assets\/instagram-square-brands.png" : {
-      "ft" : 32768,
-      "iS" : 678,
-      "oA" : 0,
-      "oAP" : "\/Assets\/instagram-square-brands.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/Assets\/LNU+Wht.png" : {
-      "ft" : 32768,
-      "iS" : 22409,
-      "oA" : 0,
-      "oAP" : "\/Assets\/LNU+Wht.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/Assets\/roots-picnic-2023-lineup-1676905774.png" : {
       "ft" : 32768,
       "iS" : 170940,
@@ -144,19 +105,6 @@
       "iS" : 494497,
       "oA" : 0,
       "oAP" : "\/Assets\/roots-picnic-philadelphia-1-600.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/Assets\/RP+2023+Logo.png" : {
-      "ft" : 32768,
-      "iS" : 18621,
-      "oA" : 0,
-      "oAP" : "\/Assets\/RP+2023+Logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -217,58 +165,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/Assets\/SuperG_Pixel_horiz_white.png" : {
-      "ft" : 32768,
-      "iS" : 42967,
-      "oA" : 0,
-      "oAP" : "\/Assets\/SuperG_Pixel_horiz_white.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/Assets\/themann+logo_all+white+(1).png" : {
-      "ft" : 32768,
-      "iS" : 17354,
-      "oA" : 0,
-      "oAP" : "\/Assets\/themann+logo_all+white+(1).png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/Assets\/twitter-square-brands.png" : {
-      "ft" : 32768,
-      "iS" : 510,
-      "oA" : 0,
-      "oAP" : "\/Assets\/twitter-square-brands.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/Assets\/youtube-square-brands.png" : {
-      "ft" : 32768,
-      "iS" : 477,
-      "oA" : 0,
-      "oAP" : "\/Assets\/youtube-square-brands.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -281,205 +177,239 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/6-2-roots-picnic-stampede.2e16d0ba.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/6-2-roots-picnic-stampede.2e16d0ba.svg",
+    "\/deploy\/img\/AriLennox.jpg" : {
+      "ft" : 16384,
+      "iS" : 168945,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/AriLennox.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/c4c5a27a-ce26-4238-bab0-82adff6e2cb9_SOURCE.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/c4c5a27a-ce26-4238-bab0-82adff6e2cb9_SOURCE.svg",
+    "\/deploy\/img\/DinnerParty.jpg" : {
+      "ft" : 16384,
+      "iS" : 12786,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/DinnerParty.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/facebook-square-brands.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/facebook-square-brands.svg",
+    "\/deploy\/img\/Eve.jpg" : {
+      "ft" : 16384,
+      "iS" : 188749,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Eve.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/Fq8a-98XwAAV5ry 1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Fq8a-98XwAAV5ry 1.svg",
+    "\/deploy\/img\/facebooklogo.png" : {
+      "ft" : 32768,
+      "iS" : 427,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebooklogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/FqOEtFxXgAA4QsB.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FqOEtFxXgAA4QsB.svg",
+    "\/deploy\/img\/FestivalArea.jpg" : {
+      "ft" : 16384,
+      "iS" : 14532,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/FestivalArea.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/FsJ4o2eXgAEZsWP.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FsJ4o2eXgAEZsWP.svg",
+    "\/deploy\/img\/Glorilla.jpg" : {
+      "ft" : 16384,
+      "iS" : 159043,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Glorilla.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/FsZHm59XwAE5FNd 1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/FsZHm59XwAE5FNd 1.svg",
+    "\/deploy\/img\/GPixelLogo.png" : {
+      "ft" : 32768,
+      "iS" : 42967,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/GPixelLogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/instagram-square-brands.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/instagram-square-brands.svg",
+    "\/deploy\/img\/instagramlogo.png" : {
+      "ft" : 32768,
+      "iS" : 678,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/instagramlogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/LNU+Wht.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/LNU+Wht.svg",
+    "\/deploy\/img\/LaurynHill.jpg" : {
+      "ft" : 16384,
+      "iS" : 155089,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/LaurynHill.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/roots-picnic-2023-lineup-1676905774.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/roots-picnic-2023-lineup-1676905774.svg",
+    "\/deploy\/img\/LNU+Wht.png" : {
+      "ft" : 32768,
+      "iS" : 22409,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/LNU+Wht.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/roots-picnic-philadelphia-1-600.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/roots-picnic-philadelphia-1-600.svg",
+    "\/deploy\/img\/RootsPicnicHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 73197,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/RootsPicnicHero.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/RP+2023+Logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/RP+2023+Logo.svg",
+    "\/deploy\/img\/RP_PodcastPromo.jpg" : {
+      "ft" : 16384,
+      "iS" : 208301,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/RP_PodcastPromo.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/Screen Shot 2023-04-10 at 8.02 1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Screen Shot 2023-04-10 at 8.02 1.svg",
+    "\/deploy\/img\/RP_PromoImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 233435,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/RP_PromoImage.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/Screen Shot 2023-04-10 at 8.21 1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Screen Shot 2023-04-10 at 8.21 1.svg",
+    "\/deploy\/img\/RP+2023+Logo.png" : {
+      "ft" : 32768,
+      "iS" : 18621,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/RP+2023+Logo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/Screenshot 2023-04-13 at 4.18_eve.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Screenshot 2023-04-13 at 4.18_eve.svg",
+    "\/deploy\/img\/themannlogo.png" : {
+      "ft" : 32768,
+      "iS" : 17354,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/themannlogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/Screenshot 2023-04-13 at 4.18.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Screenshot 2023-04-13 at 4.18.svg",
+    "\/deploy\/img\/TheOfficePodcast.jpg" : {
+      "ft" : 16384,
+      "iS" : 188407,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/TheOfficePodcast.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/SuperG_Pixel_horiz_white.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/SuperG_Pixel_horiz_white.svg",
+    "\/deploy\/img\/twitterlogo.png" : {
+      "ft" : 32768,
+      "iS" : 510,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/twitterlogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
-    "\/deploy\/img\/themann+logo_all+white+(1).svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/themann+logo_all+white+(1).svg",
+    "\/deploy\/img\/youtubelogo.png" : {
+      "ft" : 32768,
+      "iS" : 477,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/youtubelogo.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/twitter-square-brands.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/twitter-square-brands.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/youtube-square-brands.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/youtube-square-brands.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -544,7 +474,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -560,7 +490,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -577,8 +507,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
