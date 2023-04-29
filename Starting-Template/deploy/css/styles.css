@@ -344,7 +344,7 @@ template {
 }
 
 .gpixel {
-  width: 50%;
+  width: 20%;
 }
 
 /* =============
@@ -377,9 +377,27 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+header > div {
+  grid-area: header;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Hero
 ============= */
@@ -395,6 +413,15 @@ textarea {
 /* =============
     Explore
 ============= */
+#explore {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". explore .";
+}
+#explore > div {
+  grid-area: explore;
+}
+
 /* =============
     Options
 ============= */
