@@ -2,5 +2,11 @@
     Hero
 ============= */
 #hero{
-    
+    @media screen {
+        min-width: 390px;
+    }
+
+    @include md {
+        grid-template-columns: repeat(50% 50%);
+    }
 }

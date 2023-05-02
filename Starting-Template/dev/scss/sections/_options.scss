@@ -9,6 +9,10 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". options .";
 
+    @media screen {
+        min-width: 390px;
+    }
+
     >div{
         grid-area: options;
         display: grid;

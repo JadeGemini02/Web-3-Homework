@@ -6,6 +6,12 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". explore .";
+    @include md {
+        grid-template-columns: repeat(50% 50%);
+    }
+    @media screen {
+        min-width: 390px;
+    }
 
     >div{
         grid-area: explore;

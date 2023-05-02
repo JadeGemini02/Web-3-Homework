@@ -341,7 +341,6 @@ template {
 
 .main-logo {
   width: 35%;
-  padding-left: 120px;
   padding-bottom: 16px;
   padding-top: 16px;
 }
@@ -383,14 +382,30 @@ textarea {
 ============= */
 header {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0 auto 0;
   grid-template-areas: ". header .";
-  background-color: #113849;
+}
+@media screen {
+  header {
+    min-width: 390px;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: 10% auto 10%;
+  }
 }
 header > div {
   grid-area: header;
+  text-align: center;
 }
-
+header #logo-nav {
+  background-color: #113849;
+}
+header #search-bar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 /* =============
     Footer
 ============= */
@@ -400,12 +415,18 @@ footer {
   grid-template-areas: ". footer .";
   background-color: #FD7522;
 }
+@media screen {
+  footer {
+    min-width: 390px;
+  }
+}
 footer > div {
   grid-area: footer;
 }
 footer > div ul {
   margin: 0;
   padding: 0;
+  display: grid;
   gap: 24px;
 }
 footer > div ul li {
@@ -418,6 +439,17 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
+@media screen {
+  #hero {
+    min-width: 390px;
+  }
+}
+@media (min-width: 768px) {
+  #hero {
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+
 /* =============
     Explore
 ============= */
@@ -425,6 +457,16 @@ footer > div ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". explore .";
+}
+@media (min-width: 768px) {
+  #explore {
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+@media screen {
+  #explore {
+    min-width: 390px;
+  }
 }
 #explore > div {
   grid-area: explore;
@@ -440,6 +482,11 @@ footer > div ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". options .";
 }
+@media screen {
+  #options {
+    min-width: 390px;
+  }
+}
 #options > div {
   grid-area: options;
   display: grid;
@@ -448,6 +495,22 @@ footer > div ul li {
 /* =============
     Promo
 ============= */
+@media screen {
+  #promo {
+    min-width: 390px;
+  }
+}
+@media (min-width: 768px) {
+  #promo {
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+#promo > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: ". promo .";
+}
+
 /* =============
     Headliners
 ============= */
@@ -457,6 +520,19 @@ footer > div ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". headliners .";
 }
+@media screen {
+  #headliners {
+    min-width: 390px;
+  }
+}
 #headliners > div {
   grid-area: headliners;
+  margin: 0 padding 0;
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #headliners > div {
+    grid-template-columns: repeat(50% 50%);
+  }
 }

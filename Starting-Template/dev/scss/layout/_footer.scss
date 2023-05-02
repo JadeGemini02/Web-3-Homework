@@ -8,12 +8,17 @@ footer{
     grid-template-areas: ". footer .";
     background-color: #FD7522;
 
+    @media screen {
+        min-width: 390px;
+    }
+
     >div{
         grid-area: footer;
         
         ul{
             margin: 0;
             padding: 0;
+            display: grid;
             gap: 24px;
 
             li{
