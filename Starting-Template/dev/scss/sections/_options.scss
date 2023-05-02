@@ -3,5 +3,14 @@
 ============= */
 
 #options{
-    
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". options .";
+
+    >div{
+        grid-area: options;
+        display: grid;
+    }
 }

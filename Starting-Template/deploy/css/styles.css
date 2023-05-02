@@ -328,7 +328,7 @@ template {
     Base
 ============= */
 .icons {
-  width: 5%;
+  width: 11%;
 }
 
 .large-images {
@@ -340,11 +340,15 @@ template {
 }
 
 .main-logo {
-  width: 25%;
+  width: 35%;
+  padding-left: 120px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
-.gpixel {
-  width: 20%;
+.sponsors {
+  width: 100%;
+  padding-bottom: 50px;
 }
 
 /* =============
@@ -381,6 +385,7 @@ header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+  background-color: #113849;
 }
 header > div {
   grid-area: header;
@@ -393,23 +398,26 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+  background-color: #FD7522;
 }
 footer > div {
   grid-area: footer;
+}
+footer > div ul {
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+footer > div ul li {
+  list-style: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 /* =============
     Hero
 ============= */
-#hero {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero .";
-}
-#hero > div {
-  grid-area: hero;
-}
-
 /* =============
     Explore
 ============= */
@@ -420,11 +428,23 @@ footer > div {
 }
 #explore > div {
   grid-area: explore;
+  background-color: #1D658B;
 }
 
 /* =============
     Options
 ============= */
+#options {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". options .";
+}
+#options > div {
+  grid-area: options;
+  display: grid;
+}
+
 /* =============
     Promo
 ============= */
@@ -432,6 +452,7 @@ footer > div {
     Headliners
 ============= */
 #headliners {
+  background-color: #601F8F;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". headliners .";

@@ -6,9 +6,23 @@ footer{
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
+    background-color: #FD7522;
 
     >div{
         grid-area: footer;
+        
+        ul{
+            margin: 0;
+            padding: 0;
+            gap: 24px;
+
+            li{
+                list-style: none;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+            }
+        }
     }
 }
 
