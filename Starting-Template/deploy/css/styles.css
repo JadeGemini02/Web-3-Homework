@@ -327,6 +327,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 .icons {
   width: 11%;
 }
@@ -348,13 +356,13 @@ template {
 
 .explore {
   background-color: #1D658B;
+  padding-bottom: 16px;
 }
 
 .festival {
   background-color: #1D658B;
   padding-left: 16px;
   padding-bottom: 16px;
-  padding-top: 16px;
 }
 
 /* =============
@@ -464,7 +472,7 @@ footer > div ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". explore .";
-  grid-template-areas: ". festival .";
+  grid-template-areas: ". festival";
 }
 #explore > div {
   grid-area: explore;
@@ -473,6 +481,11 @@ footer > div ul li {
 @media (min-width: 768px) {
   #explore > div {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  #explore > div {
+    grid-template-columns: repeat(50%, auto);
   }
 }
 @media (min-width: 1200px) {
@@ -513,44 +526,70 @@ footer > div ul li {
 /* =============
     Promo
 ============= */
-#promo > div {
+#promo {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". promo .";
 }
+#promo > div {
+  grid-area: promo;
+  margin: 0;
+  padding: 0%;
+  display: grid;
+  gap: 0;
+}
 @media (min-width: 768px) {
   #promo > div {
-    grid-template-columns: repeat(2, 1fr);
+    grid-area: ". promo .";
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1024px) {
+  #promo > div {
+    grid-area: ". promo .";
+    grid-template-columns: repeat(2, auto);
   }
 }
 @media (min-width: 1200px) {
   #promo > div {
-    grid-template-columns: repeat(2, 1fr);
+    grid-area: ". promo .";
+    grid-template-columns: repeat(2, auto);
   }
+}
+#promo > div img {
+  width: 100%;
 }
 
 /* =============
     Headliners
 ============= */
 #headliners {
-  background-color: #601F8F;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". headliners .";
 }
 #headliners > div {
   grid-area: headliners;
-  margin: 0 padding 0;
+}
+#headliners > div ul {
   display: grid;
   gap: 0;
 }
 @media (min-width: 768px) {
-  #headliners > div {
-    grid-template-columns: repeat(2, 1fr);
+  #headliners > div ul {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1024px) {
+  #headliners > div ul {
+    grid-template-columns: repeat(3, auto);
   }
 }
 @media (min-width: 1200px) {
-  #headliners > div {
-    grid-template-columns: repeat(3, 1fr);
+  #headliners > div ul {
+    grid-template-columns: repeat(3, auto);
   }
+}
+#headliners > div ul img {
+  width: 100%;
 }

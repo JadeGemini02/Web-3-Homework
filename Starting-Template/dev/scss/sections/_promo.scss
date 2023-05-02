@@ -3,17 +3,34 @@
 ============= */
 
 #promo{
-    >div{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". promo .";
-    
+
+    >div{
+        grid-area: promo;
+        margin: 0;
+        padding: 0%;
+        display: grid;
+        gap: 0;
+
         @include md{
-            grid-template-columns: repeat(2, 1fr);
+            grid-area: ". promo .";
+            grid-template-columns: repeat(2, auto);
+        }
+
+        @include lg{
+            grid-area: ". promo .";
+            grid-template-columns: repeat(2, auto);
         }
     
         @include xl{
-            grid-template-columns: repeat(2, 1fr);
+            grid-area: ". promo .";
+            grid-template-columns: repeat(2, auto);
+        }
+
+        img {
+            width: 100%;
         }
     }
 }

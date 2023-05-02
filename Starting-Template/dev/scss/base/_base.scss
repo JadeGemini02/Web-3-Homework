@@ -2,6 +2,14 @@
     Base
 ============= */
 
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+
 .icons{
     width: 11%;
 }
@@ -23,6 +31,7 @@
 
 .explore{
     background-color: #1D658B;
+    padding-bottom: 16px;
 
 }
 
@@ -30,5 +39,4 @@
     background-color: #1D658B;
     padding-left: 16px;
     padding-bottom: 16px;
-    padding-top: 16px;
 }
