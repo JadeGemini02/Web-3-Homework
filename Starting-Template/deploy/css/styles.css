@@ -331,10 +331,6 @@ template {
   width: 11%;
 }
 
-.large-images {
-  width: 100%;
-}
-
 .hero {
   width: 100%;
 }
@@ -348,6 +344,17 @@ template {
 .sponsors {
   width: 100%;
   padding-bottom: 50px;
+}
+
+.explore {
+  background-color: #1D658B;
+}
+
+.festival {
+  background-color: #1D658B;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
 /* =============
@@ -393,6 +400,11 @@ header {
 @media (min-width: 768px) {
   header {
     grid-template-columns: 10% auto 10%;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    grid-template-columns: 16% auto 16%;
   }
 }
 header > div {
@@ -444,11 +456,6 @@ footer > div ul li {
     min-width: 390px;
   }
 }
-@media (min-width: 768px) {
-  #hero {
-    grid-template-columns: repeat(50% 50%);
-  }
-}
 
 /* =============
     Explore
@@ -457,20 +464,21 @@ footer > div ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". explore .";
-}
-@media (min-width: 768px) {
-  #explore {
-    grid-template-columns: repeat(50% 50%);
-  }
-}
-@media screen {
-  #explore {
-    min-width: 390px;
-  }
+  grid-template-areas: ". festival .";
 }
 #explore > div {
   grid-area: explore;
-  background-color: #1D658B;
+  grid-area: festival;
+}
+@media (min-width: 768px) {
+  #explore > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #explore > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* =============
@@ -482,33 +490,43 @@ footer > div ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". options .";
 }
-@media screen {
-  #options {
-    min-width: 390px;
-  }
-}
 #options > div {
   grid-area: options;
   display: grid;
+}
+@media (min-width: 768px) {
+  #options > div {
+    grid-template-columns: repeat(50% 50%);
+  }
+}
+@media (min-width: 1200px) {
+  #options > div {
+    grid-template-columns: repeat(50%, 50%);
+  }
+}
+@media screen {
+  #options > div {
+    min-width: 390px;
+  }
 }
 
 /* =============
     Promo
 ============= */
-@media screen {
-  #promo {
-    min-width: 390px;
-  }
-}
-@media (min-width: 768px) {
-  #promo {
-    grid-template-columns: repeat(50% 50%);
-  }
-}
 #promo > div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". promo .";
+}
+@media (min-width: 768px) {
+  #promo > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #promo > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* =============
@@ -520,19 +538,19 @@ footer > div ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". headliners .";
 }
-@media screen {
-  #headliners {
-    min-width: 390px;
-  }
-}
 #headliners > div {
   grid-area: headliners;
   margin: 0 padding 0;
   display: grid;
-  gap: 16px;
+  gap: 0;
 }
 @media (min-width: 768px) {
   #headliners > div {
-    grid-template-columns: repeat(50% 50%);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #headliners > div {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

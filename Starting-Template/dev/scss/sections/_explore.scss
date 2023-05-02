@@ -6,15 +6,18 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". explore .";
-    @include md {
-        grid-template-columns: repeat(50% 50%);
-    }
-    @media screen {
-        min-width: 390px;
-    }
+    grid-template-areas: ". festival .";
 
     >div{
         grid-area: explore;
-        background-color: #1D658B
+        grid-area: festival;
+
+    @include md {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include xl {
+        grid-template-columns: repeat(2, 1fr);
+    }
     }
 }

@@ -8,19 +8,19 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". headliners .";
 
-    @media screen {
-        min-width: 390px;
+    >div{
+    grid-area: headliners;
+    margin: 0
+    padding 0;
+    display: grid;
+    gap: 0;
+
+    @include md{
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    >div{
-        grid-area: headliners;
-
-        margin: 0
-        padding 0;
-        display: grid;
-        gap: 16px;
-        @include md {
-            grid-template-columns: repeat(50% 50%);
-        }
+    @include xl{
+        grid-template-columns: repeat(3, 1fr);
+    }   
     }
 }

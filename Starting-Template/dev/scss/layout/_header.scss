@@ -14,6 +14,11 @@ header{
     @include md{
         grid-template-columns: 10% auto 10%;
     }
+
+    @include xl{
+        grid-template-columns: 16% auto 16%;
+    }
+    
     >div{
         grid-area: header;
         text-align: center;
