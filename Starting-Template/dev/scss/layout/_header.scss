@@ -6,7 +6,6 @@ header{
     display: grid;
     grid-template-columns: 0 auto 0;
     grid-template-areas: ". header .";
-    color: var(--blue);
 
     @include md{
         grid-template-columns: 10% auto 10%;

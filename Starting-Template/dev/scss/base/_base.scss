@@ -32,14 +32,25 @@ ul{
 
 .explore{
     background-color: #1D658B;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 
 }
 
 .festival{
     background-color: #1D658B;
+    color: var(--white);
     padding-left: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
+    padding-top: 1px;
+    margin-bottom: 16px;
+
+    button{
+        background-color: var(--magenta);
+        color: var(--white);
+    }
+    
 }
 
 .early-bird{

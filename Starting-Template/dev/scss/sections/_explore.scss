@@ -6,12 +6,15 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". explore .";
-    grid-template-areas: ". festival";
+    color: var(--white);
 
     >div{
         grid-area: explore;
-        grid-area: festival;
 
+        button{
+            background-color: var(--magenta);
+            color: var(--white);
+        }
     @include md {
         grid-template-columns: repeat(2, 1fr);
     }
