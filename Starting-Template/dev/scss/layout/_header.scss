@@ -6,10 +6,7 @@ header{
     display: grid;
     grid-template-columns: 0 auto 0;
     grid-template-areas: ". header .";
-
-    @media screen {
-        min-width: 390px;
-    }
+    color: var(--blue);
 
     @include md{
         grid-template-columns: 10% auto 10%;
@@ -28,19 +25,6 @@ header{
         background-color: #113849;
         img{
 
-        }
-    }
-
-   #search-bar{
-    padding-top: 16px;
-    padding-bottom: 16px;
-        form{
-            input{
-                button{
-                    background-color: #113849;
-                    color: var(--light-blue);
-                }
-            }
         }
     }
 }

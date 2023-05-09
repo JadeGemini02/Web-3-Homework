@@ -374,6 +374,24 @@ ul li {
   padding-bottom: 16px;
 }
 
+.early-bird {
+  background-color: var(--dark-orange);
+}
+
+.vip {
+  background-color: var(--black);
+}
+
+.search-button {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+}
+
+.search-bar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 /* =============
     Typography
 ============= */
@@ -408,11 +426,7 @@ header {
   display: grid;
   grid-template-columns: 0 auto 0;
   grid-template-areas: ". header .";
-}
-@media screen {
-  header {
-    min-width: 390px;
-  }
+  color: var(--blue);
 }
 @media (min-width: 768px) {
   header {
@@ -431,15 +445,6 @@ header > div {
 header #logo-nav {
   background-color: #113849;
 }
-header #search-bar {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-header #search-bar form input button {
-  background-color: #113849;
-  color: var(--light-blue);
-}
-
 /* =============
     Footer
 ============= */
@@ -545,7 +550,6 @@ footer > div ul li {
   }
 }
 #options > div button {
-  background-color: black;
   color: white;
 }
 
