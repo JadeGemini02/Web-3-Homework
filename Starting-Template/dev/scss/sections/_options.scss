@@ -8,21 +8,27 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". options .";
-
+    
     >div{
         grid-area: options;
         display: grid;
 
         @include md {
-            grid-template-columns: repeat(50% 50%);
+            grid-template-rows: repeat(50%, 50%);
+        }
+
+        @include lg {
+            grid-template-rows: repeat(50%, 50%);
         }
     
         @include xl {
-            grid-template-columns: repeat(50%, 50%);
+            grid-template-rows: repeat(50%, 50%);
         }
-    
-        @media screen {
-            min-width: 390px;
+
+        grid-area: options;
+        button{
+            background-color: black;
+            color: white;
         }
-    }
+        }
 }

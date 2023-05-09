@@ -13,6 +13,14 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --orange: #FD7522;
+  --dark-orange: #D73E01;
+  --cream: #F5E2BA;
+  --dark-blue: #113849;
+  --blue: #1D658B;
+  --light-blue: #5DBCFA;
+  --magenta: #AF2A76;
+  --purple: #601F8F;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -426,6 +434,12 @@ header #search-bar {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+header #search-bar form input button {
+  grid-template: header;
+  background-color: #113849;
+  color: var(--light-blue);
+}
+
 /* =============
     Footer
 ============= */
@@ -506,21 +520,26 @@ footer > div ul li {
 #options > div {
   grid-area: options;
   display: grid;
+  grid-area: options;
 }
 @media (min-width: 768px) {
   #options > div {
-    grid-template-columns: repeat(50% 50%);
+    grid-template-rows: repeat(50%, 50%);
+  }
+}
+@media (min-width: 1024px) {
+  #options > div {
+    grid-template-rows: repeat(50%, 50%);
   }
 }
 @media (min-width: 1200px) {
   #options > div {
-    grid-template-columns: repeat(50%, 50%);
+    grid-template-rows: repeat(50%, 50%);
   }
 }
-@media screen {
-  #options > div {
-    min-width: 390px;
-  }
+#options > div button {
+  background-color: black;
+  color: white;
 }
 
 /* =============
