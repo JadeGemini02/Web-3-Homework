@@ -345,6 +345,7 @@ ul li {
 
 .icons {
   width: 11%;
+  padding-bottom: 16px;
 }
 
 .hero {
@@ -435,7 +436,6 @@ header #search-bar {
   padding-bottom: 16px;
 }
 header #search-bar form input button {
-  grid-template: header;
   background-color: #113849;
   color: var(--light-blue);
 }
@@ -448,6 +448,7 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
   background-color: #FD7522;
+  color: white;
 }
 @media screen {
   footer {
@@ -457,6 +458,14 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div button {
+  background-color: var(--purple);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
 footer > div ul {
   margin: 0;
   padding: 0;
@@ -465,8 +474,6 @@ footer > div ul {
 }
 footer > div ul li {
   list-style: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -514,7 +521,7 @@ footer > div ul li {
 #options {
   text-align: center;
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 0 auto 0;
   grid-template-areas: ". options .";
 }
 #options > div {
