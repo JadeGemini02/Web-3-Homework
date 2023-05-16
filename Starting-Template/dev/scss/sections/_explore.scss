@@ -4,7 +4,7 @@
 
 #explore{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 16px auto;
     grid-template-areas: ". explore .";
     color: var(--white);
 
@@ -15,7 +15,9 @@
             background-color: var(--magenta);
             color: var(--white);
             cursor: pointer;
+            margin-top: 16px;
         }
+
     @include md {
         grid-template-columns: repeat(2, 1fr);
     }

@@ -50,6 +50,7 @@ ul{
         background-color: var(--magenta);
         color: var(--white);
         cursor: pointer;
+        margin-top: 16px;
     }
     
 }
@@ -72,8 +73,4 @@ ul{
 .search-bar{
     padding-top: 16px;
     padding-bottom: 16px;
-}
-
-.tiny-image{
-    width: 100%;
 }

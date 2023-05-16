@@ -382,6 +382,7 @@ ul li {
   background-color: var(--magenta);
   color: var(--white);
   cursor: pointer;
+  margin-top: 16px;
 }
 
 .early-bird {
@@ -402,10 +403,6 @@ ul li {
 .search-bar {
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-.tiny-image {
-  width: 100%;
 }
 
 /* =============
@@ -532,7 +529,7 @@ footer > div ul li {
 ============= */
 #explore {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 16px auto;
   grid-template-areas: ". explore .";
   color: var(--white);
 }
@@ -543,6 +540,7 @@ footer > div ul li {
   background-color: var(--magenta);
   color: var(--white);
   cursor: pointer;
+  margin-top: 16px;
 }
 @media (min-width: 768px) {
   #explore > div {
