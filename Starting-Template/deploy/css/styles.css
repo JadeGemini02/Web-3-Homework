@@ -381,15 +381,16 @@ ul li {
 .festival button {
   background-color: var(--magenta);
   color: var(--white);
+  cursor: pointer;
 }
 
 .early-bird {
-  background-color: var(--dark-orange);
+  background-color: var(--black);
   width: 100%;
 }
 
 .vip {
-  background-color: var(--black);
+  background-color: var(--dark-orange);
   width: 100%;
 }
 
@@ -401,6 +402,10 @@ ul li {
 .search-bar {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.tiny-image {
+  width: 100%;
 }
 
 /* =============
@@ -471,6 +476,10 @@ header > div {
 header #logo-nav {
   background-color: #113849;
 }
+header button {
+  cursor: pointer;
+}
+
 /* =============
     Footer
 ============= */
@@ -496,6 +505,7 @@ footer > div button {
   padding-bottom: 8px;
   padding-left: 8px;
   padding-right: 8px;
+  cursor: pointer;
 }
 footer > div ul {
   margin: 0;
@@ -532,6 +542,7 @@ footer > div ul li {
 #explore > div button {
   background-color: var(--magenta);
   color: var(--white);
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   #explore > div {
@@ -580,19 +591,13 @@ footer > div ul li {
 }
 #options > div button {
   color: white;
+  cursor: pointer;
 }
 #options > div button a:link,
 #options > div button a:visited {
   text-decoration: none;
   display: inline-block;
   transition: 0.25s;
-}
-#options > div button a:link a:hover,
-#options > div button a:link a:active,
-#options > div button a:visited a:hover,
-#options > div button a:visited a:active {
-  background-color: var(--magenta);
-  color: white;
 }
 
 /* =============

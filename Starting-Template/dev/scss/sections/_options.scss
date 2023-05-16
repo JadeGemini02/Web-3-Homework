@@ -28,17 +28,12 @@
         grid-area: options;
         button{
             color: white;
+            cursor: pointer;
             a:link,
             a:visited {
                 text-decoration: none;
                 display: inline-block;
                 transition: 0.25s;
-
-                a:hover,
-                a:active {
-                    background-color: var(--magenta);
-                    color: white; 
-                }
             }
         }
         }

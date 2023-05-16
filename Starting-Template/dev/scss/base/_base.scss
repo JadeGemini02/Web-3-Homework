@@ -49,17 +49,18 @@ ul{
     button{
         background-color: var(--magenta);
         color: var(--white);
+        cursor: pointer;
     }
     
 }
 
 .early-bird{
-    background-color: var(--dark-orange);
+    background-color: var(--black);
     width: 100%;
 }
 
 .vip{
-    background-color: var(--black);
+    background-color: var(--dark-orange);
     width: 100%;
 }
 
@@ -71,4 +72,8 @@ ul{
 .search-bar{
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.tiny-image{
+    width: 100%;
 }
