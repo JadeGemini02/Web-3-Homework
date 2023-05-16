@@ -385,10 +385,12 @@ ul li {
 
 .early-bird {
   background-color: var(--dark-orange);
+  width: 100%;
 }
 
 .vip {
   background-color: var(--black);
+  width: 100%;
 }
 
 .search-button {
@@ -404,6 +406,22 @@ ul li {
 /* =============
     Typography
 ============= */
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -561,6 +579,19 @@ footer > div ul li {
   }
 }
 #options > div button {
+  color: white;
+}
+#options > div button a:link,
+#options > div button a:visited {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.25s;
+}
+#options > div button a:link a:hover,
+#options > div button a:link a:active,
+#options > div button a:visited a:hover,
+#options > div button a:visited a:active {
+  background-color: var(--magenta);
   color: white;
 }
 
