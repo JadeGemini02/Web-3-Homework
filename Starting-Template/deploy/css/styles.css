@@ -450,13 +450,37 @@ textarea {
 /* =============
     Navigation
 ============= */
+@media (min-width: 1024px) {
+  nav ul {
+    display: block;
+  }
+}
+nav ul li a:link, nav ul li a:visited {
+  padding: 24px 36px;
+  color: black;
+  border-radius: 6px;
+  transition: 0.25s;
+  font-family: "Roboto", sans-serif;
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  background-color: var(--dark-orange);
+  color: var(--white);
+}
+
 /* =============
     Header
 ============= */
 header {
   display: grid;
-  grid-template-columns: 0 auto 0;
-  grid-template-areas: ". header .";
+  grid-template-columns: auto;
+  grid-template-areas: ". header ." #logo;
+  grid-template-areas-grid-area: logo;
+}
+header #burger-container {
+  grid-area: burger;
+}
+header nav {
+  grid-area: nav;
 }
 @media (min-width: 768px) {
   header {
@@ -469,13 +493,23 @@ header {
   }
 }
 header > div {
+  display: auto;
   grid-area: header;
   text-align: center;
 }
-header #logo-nav {
-  background-color: #113849;
+header > div #logo-nav {
+  background-color: var(--dark-blue);
+  max-width: auto;
 }
-header button {
+header > div nav {
+  margin-left: auto;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+}
+header > div nav ul li a {
+  color: black;
+}
+header > div button {
   cursor: pointer;
 }
 

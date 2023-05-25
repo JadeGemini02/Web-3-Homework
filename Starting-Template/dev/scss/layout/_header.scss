@@ -4,8 +4,21 @@
 
 header{
     display: grid;
-    grid-template-columns: 0 auto 0;
-    grid-template-areas: ". header .";
+    grid-template-columns: auto;
+    grid-template-areas: ". header ."
+
+    #logo{
+        grid-area: logo;
+        
+    }
+
+    #burger-container{
+        grid-area: burger;
+    }
+
+    nav{
+        grid-area: nav;
+    }
 
     @include md{
         grid-template-columns: 10% auto 10%;
@@ -16,18 +29,37 @@ header{
     }
     
     >div{
+        display: auto;
         grid-area: header;
         text-align: center;
-    }
 
-    #logo-nav{
-        background-color: #113849;
-        img{
+        #logo-nav{
+            background-color: var(--dark-blue);
+            max-width: auto;
+            img{
+    
+            }
+        }
 
+        nav{
+            margin-left: auto;
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+                "logo burger"
+                "nav nav";
+            ul{
+                li{
+                    a{
+                        color: black;
+                    }
+                }
+            }
+        }
+    
+        button{
+            cursor: pointer;
         }
     }
 
-    button{
-        cursor: pointer;
-    }
+    
 }
