@@ -505,6 +505,7 @@ header > div nav {
   margin-left: auto;
   grid-template-columns: 50% auto;
   grid-template-areas: "logo burger" "nav nav";
+  align-content: center;
 }
 header > div nav ul li a {
   color: black;

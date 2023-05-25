@@ -9,7 +9,6 @@ header{
 
     #logo{
         grid-area: logo;
-        
     }
 
     #burger-container{
@@ -47,6 +46,7 @@ header{
             grid-template-areas: 
                 "logo burger"
                 "nav nav";
+            align-content: center;
             ul{
                 li{
                     a{
