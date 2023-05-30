@@ -4,19 +4,8 @@
 
 #explore{
     display: grid;
-    grid-template-columns: 16px auto;
+    grid-template-columns: 16px auto 16px;
     grid-template-areas: ". explore .";
-    color: var(--white);
-
-    >div{
-        grid-area: explore;
-
-        button{
-            background-color: var(--magenta);
-            color: var(--white);
-            cursor: pointer;
-            margin-top: 16px;
-        }
 
     @include md {
         grid-template-columns: repeat(2, 1fr);
@@ -29,5 +18,18 @@
     @include xl {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    >div{
+        background-color: var(--blue);
+        grid-area: explore;
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
+    
+    button{
+        background-color: var(--magenta);
+        color: var(--white);
+        cursor: pointer;
+        margin-top: 16px;
     }
 }

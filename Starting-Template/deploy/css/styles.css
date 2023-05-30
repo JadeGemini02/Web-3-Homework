@@ -365,28 +365,6 @@ ul li {
   padding-bottom: 50px;
 }
 
-.explore {
-  background-color: #1D658B;
-  padding-bottom: 18px;
-  margin-bottom: 16px;
-  margin-top: 16px;
-}
-
-.festival {
-  background-color: #1D658B;
-  color: var(--white);
-  padding-left: 16px;
-  padding-bottom: 18px;
-  padding-top: 1px;
-  margin-bottom: 16px;
-}
-.festival button {
-  background-color: var(--magenta);
-  color: var(--white);
-  cursor: pointer;
-  margin-top: 16px;
-}
-
 .early-bird {
   background-color: var(--black);
   width: 100%;
@@ -395,16 +373,6 @@ ul li {
 .vip {
   background-color: var(--dark-orange);
   width: 100%;
-}
-
-.search-button {
-  background-color: var(--dark-blue);
-  color: var(--light-blue);
-}
-
-.search-bar {
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 /* =============
@@ -472,12 +440,12 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 ============= */
 @media (min-width: 768px) {
   header {
-    grid-template-columns: 10% auto 10%;
+    padding: 24px 0;
   }
 }
 @media (min-width: 1200px) {
   header {
-    grid-template-columns: 16% auto 16%;
+    font-size: 2.1875rem;
   }
 }
 header #logo-nav {
@@ -497,8 +465,40 @@ header #search-bar {
 header #search-bar > div {
   grid-area: search;
 }
-header #search-bar > div button {
+header #search-bar > div form {
+  display: flex;
+}
+header #search-bar > div form input {
+  border: none;
+  border-bottom: 1px solid var(--white);
+  width: 100%;
+  border-radius: 0;
+  margin-right: 8px;
+  font-size: 0.875rem;
+  color: var(--dark-blue);
+}
+@media (min-width: 768px) {
+  header #search-bar > div form input {
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1200px) {
+  header #search-bar > div form input {
+    font-size: 2.1875rem;
+  }
+}
+header #search-bar > div form button {
+  border: none;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  padding: 10px 16px;
   cursor: pointer;
+  transition: 0.25;
+}
+header #search-bar > div form button:hover {
+  background-color: var(--dark-orange);
+  color: var(--white);
 }
 header nav {
   margin-left: auto;
@@ -578,33 +578,35 @@ footer > div ul li {
 ============= */
 #explore {
   display: grid;
-  grid-template-columns: 16px auto;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". explore .";
-  color: var(--white);
-}
-#explore > div {
-  grid-area: explore;
-}
-#explore > div button {
-  background-color: var(--magenta);
-  color: var(--white);
-  cursor: pointer;
-  margin-top: 16px;
 }
 @media (min-width: 768px) {
-  #explore > div {
+  #explore {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 1024px) {
-  #explore > div {
+  #explore {
     grid-template-columns: repeat(50%, auto);
   }
 }
 @media (min-width: 1200px) {
-  #explore > div {
+  #explore {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+#explore > div {
+  background-color: var(--blue);
+  grid-area: explore;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#explore button {
+  background-color: var(--magenta);
+  color: var(--white);
+  cursor: pointer;
+  margin-top: 16px;
 }
 
 /* =============

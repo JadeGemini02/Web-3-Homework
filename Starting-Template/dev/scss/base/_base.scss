@@ -32,31 +32,6 @@ ul{
     padding-bottom: 50px;
 }
 
-.explore{
-    background-color: #1D658B;
-    padding-bottom: 18px;
-    margin-bottom: 16px;
-    margin-top: 16px;
-
-}
-
-.festival{
-    background-color: #1D658B;
-    color: var(--white);
-    padding-left: 16px;
-    padding-bottom: 18px;
-    padding-top: 1px;
-    margin-bottom: 16px;
-
-    button{
-        background-color: var(--magenta);
-        color: var(--white);
-        cursor: pointer;
-        margin-top: 16px;
-    }
-    
-}
-
 .early-bird{
     background-color: var(--black);
     width: 100%;
@@ -65,14 +40,4 @@ ul{
 .vip{
     background-color: var(--dark-orange);
     width: 100%;
-}
-
-.search-button{
-    background-color: var(--dark-blue);
-    color: var(--light-blue);
-}
-
-.search-bar{
-    padding-top: 16px;
-    padding-bottom: 16px;
 }

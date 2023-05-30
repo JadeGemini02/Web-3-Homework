@@ -4,11 +4,11 @@
 
 header{
     @include md{
-        grid-template-columns: 10% auto 10%;
+        padding: 24px 0;
     }
 
     @include xl{
-        grid-template-columns: 16% auto 16%;
+        font-size: rem-calc(35);
     }
 
     #logo-nav{
@@ -25,11 +25,47 @@ header{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
+
         >div{
             grid-area: search;
-            button{
-                cursor: pointer;
+            form{
+                display: flex;
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid var(--white);
+                    width: 100%;
+                    border-radius: 0;
+                    margin-right: 8px;
+                    font-size: rem-calc(14);
+                    color: var(--dark-blue);
+
+
+                    @include md{
+                        font-size: rem-calc(30);
+                        font-weight: 300;
+                    }
+
+                    @include xl{
+                        font-size: rem-calc(35);
+                    }
+                }
+
+                button{
+                    border: none;
+                    background-color: var(--dark-blue);
+                    border-radius: 5px;
+                    padding: 10px 16px;
+                    cursor: pointer;
+                    transition: 0.25;
+
+                    &:hover{
+                        background-color: var(--dark-orange);
+                        color: var(--white);
+                    }
+                }
             }
+            
         }
 
     }
