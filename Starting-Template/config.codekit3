@@ -35,6 +35,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/Assets\/festivalicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 20199,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/festivalicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/Fq8a-98XwAAV5ry 1.png" : {
       "ft" : 32768,
       "iS" : 199714,
@@ -171,6 +184,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/search-light.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/sort-up-solid.jpg" : {
+      "ft" : 16384,
+      "iS" : 730,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/sort-up-solid.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/travelicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 21454,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/travelicon.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
