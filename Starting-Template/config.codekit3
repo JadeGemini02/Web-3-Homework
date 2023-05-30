@@ -22,6 +22,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/Assets\/arrow-right-solid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/arrow-right-solid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/c4c5a27a-ce26-4238-bab0-82adff6e2cb9_SOURCE.png" : {
       "ft" : 32768,
       "iS" : 100386,
@@ -99,6 +109,16 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/Assets\/magnifying-glass-solid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/magnifying-glass-solid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/Assets\/roots-picnic-2023-lineup-1676905774.png" : {
       "ft" : 32768,

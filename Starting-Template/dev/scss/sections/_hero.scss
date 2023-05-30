@@ -2,13 +2,37 @@
     Hero
 ============= */
 #hero{
-    section{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero-sub .";
-        background-color: var(--black);
-        >div{
-            grid-area: hero-sub;
-        }
+    width: 100%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero-tickets .";
+    width: 100%;
+
+    @include md{
+        grid-area: ". hero-tickets .";
+        grid-template-columns: repeat(2, auto);
+    }
+
+    @include lg{
+        grid-area: ". hero-tickets .";
+        grid-template-columns: repeat(2, auto);
+    }
+
+    @include xl{
+        grid-area: ". hero-tickets .";
+        grid-template-columns: repeat(2, auto);
+    }  
+    
+    >div{
+        grid-area: hero-top;
+        grid-template-columns: 50%;
+    }
+
+    >div{
+        grid-area: hero-bottom;
+        grid-template-columns: 50%;
     }
 }

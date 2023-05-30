@@ -348,10 +348,6 @@ ul li {
   padding-bottom: 16px;
 }
 
-.hero {
-  width: 100%;
-}
-
 .main-logo {
   width: 35%;
   padding-bottom: 16px;
@@ -461,6 +457,8 @@ header #search-bar {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 header #search-bar > div {
   grid-area: search;
@@ -470,7 +468,7 @@ header #search-bar > div form {
 }
 header #search-bar > div form input {
   border: none;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--black);
   width: 100%;
   border-radius: 0;
   margin-right: 8px;
@@ -492,7 +490,7 @@ header #search-bar > div form button {
   border: none;
   background-color: var(--dark-blue);
   border-radius: 5px;
-  padding: 10px 16px;
+  padding: 16px 20px;
   cursor: pointer;
   transition: 0.25;
 }
@@ -505,6 +503,10 @@ header nav {
   grid-template-columns: 50% auto;
   grid-template-areas: "logo burger" "nav nav";
   align-content: center;
+  text-align: center;
+}
+header nav ul li {
+  margin-top: 16px;
 }
 header nav ul li a {
   color: black;
@@ -563,14 +565,41 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
-#hero section {
+#hero {
+  width: 100%;
+}
+
+section {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-sub .";
-  background-color: var(--black);
+  grid-template-areas: ". hero-tickets .";
+  width: 100%;
 }
-#hero section > div {
-  grid-area: hero-sub;
+@media (min-width: 768px) {
+  section {
+    grid-area: ". hero-tickets .";
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1024px) {
+  section {
+    grid-area: ". hero-tickets .";
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1200px) {
+  section {
+    grid-area: ". hero-tickets .";
+    grid-template-columns: repeat(2, auto);
+  }
+}
+section > div {
+  grid-area: hero-top;
+  grid-template-columns: 50%;
+}
+section > div {
+  grid-area: hero-bottom;
+  grid-template-columns: 50%;
 }
 
 /* =============
