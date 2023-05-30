@@ -3,9 +3,54 @@
 ============= */
 
 header{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-areas: ". header ."
+    @include md{
+        grid-template-columns: 10% auto 10%;
+    }
+
+    @include xl{
+        grid-template-columns: 16% auto 16%;
+    }
+
+    #logo-nav{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". logo-nav .";
+            >div{
+                background-color: var(--dark-blue);
+                grid-area: logo-nav;
+            }
+    }
+
+    #search-bar{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". search .";
+        >div{
+            grid-area: search;
+            button{
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    nav{
+        margin-left: auto;
+        grid-template-columns: 50% auto;
+        grid-template-areas: 
+            "logo burger"
+            "nav nav";
+        align-content: center;
+        ul{
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
 
     #logo{
         grid-area: logo;
@@ -18,48 +63,3 @@ header{
     nav{
         grid-area: nav;
     }
-
-    @include md{
-        grid-template-columns: 10% auto 10%;
-    }
-
-    @include xl{
-        grid-template-columns: 16% auto 16%;
-    }
-    
-    >div{
-        display: auto;
-        grid-area: header;
-        text-align: center;
-
-        #logo-nav{
-            background-color: var(--dark-blue);
-            max-width: auto;
-            img{
-    
-            }
-        }
-
-        nav{
-            margin-left: auto;
-            grid-template-columns: 50% auto;
-            grid-template-areas: 
-                "logo burger"
-                "nav nav";
-            align-content: center;
-            ul{
-                li{
-                    a{
-                        color: black;
-                    }
-                }
-            }
-        }
-    
-        button{
-            cursor: pointer;
-        }
-    }
-
-    
-}

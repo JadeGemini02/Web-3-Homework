@@ -165,6 +165,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/Assets\/search-light.jpg" : {
+      "ft" : 16384,
+      "iS" : 3445,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/search-light.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,

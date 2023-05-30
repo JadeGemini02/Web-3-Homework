@@ -470,18 +470,6 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 /* =============
     Header
 ============= */
-header {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: ". header ." #logo;
-  grid-template-areas-grid-area: logo;
-}
-header #burger-container {
-  grid-area: burger;
-}
-header nav {
-  grid-area: nav;
-}
 @media (min-width: 768px) {
   header {
     grid-template-columns: 10% auto 10%;
@@ -492,26 +480,46 @@ header nav {
     grid-template-columns: 16% auto 16%;
   }
 }
-header > div {
-  display: auto;
-  grid-area: header;
-  text-align: center;
+header #logo-nav {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". logo-nav .";
 }
-header > div #logo-nav {
+header #logo-nav > div {
   background-color: var(--dark-blue);
-  max-width: auto;
+  grid-area: logo-nav;
 }
-header > div nav {
+header #search-bar {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+header #search-bar > div {
+  grid-area: search;
+}
+header #search-bar > div button {
+  cursor: pointer;
+}
+header nav {
   margin-left: auto;
   grid-template-columns: 50% auto;
   grid-template-areas: "logo burger" "nav nav";
   align-content: center;
 }
-header > div nav ul li a {
+header nav ul li a {
   color: black;
 }
-header > div button {
-  cursor: pointer;
+
+#logo {
+  grid-area: logo;
+}
+
+#burger-container {
+  grid-area: burger;
+}
+
+nav {
+  grid-area: nav;
 }
 
 /* =============
@@ -555,10 +563,14 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
-@media screen {
-  #hero {
-    min-width: 390px;
-  }
+#hero section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-sub .";
+  background-color: var(--black);
+}
+#hero section > div {
+  grid-area: hero-sub;
 }
 
 /* =============
