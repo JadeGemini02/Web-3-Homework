@@ -211,31 +211,25 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/Assets\/search-light.jpg" : {
-      "ft" : 16384,
-      "iS" : 3445,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/search-light.jpg",
+    "\/Assets\/search-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/search-light.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/Assets\/sort-up-solid.jpg" : {
-      "ft" : 16384,
-      "iS" : 730,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/sort-up-solid.jpg",
+    "\/Assets\/sort-up-solid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/sort-up-solid.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/Assets\/themannlogo.png" : {
       "ft" : 32768,
@@ -503,31 +497,25 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/search-light.jpg" : {
-      "ft" : 16384,
-      "iS" : 3445,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/search-light.jpg",
+    "\/deploy\/img\/search-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search-light.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/deploy\/img\/sort-up-solid.jpg" : {
-      "ft" : 16384,
-      "iS" : 730,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/sort-up-solid.jpg",
+    "\/deploy\/img\/sort-up-solid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/sort-up-solid.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/themannlogo.png" : {
       "ft" : 32768,

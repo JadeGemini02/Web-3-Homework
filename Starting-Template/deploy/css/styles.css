@@ -352,6 +352,7 @@ ul li {
   width: 35%;
   padding-bottom: 16px;
   padding-top: 16px;
+  padding-left: 16px;
 }
 
 .sponsors {
@@ -558,7 +559,7 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
-#hero {
+#hero section {
   width: 100%;
 }
 
