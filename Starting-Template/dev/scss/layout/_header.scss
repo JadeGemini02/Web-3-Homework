@@ -55,16 +55,8 @@ header{
 
                 button{
                     border: none;
-                    background-color: var(--dark-blue);
-                    border-radius: 5px;
-                    padding: 16px 20px;
                     cursor: pointer;
                     transition: 0.25;
-
-                    &:hover{
-                        background-color: var(--dark-orange);
-                        color: var(--white);
-                    }
                 }
             }
             

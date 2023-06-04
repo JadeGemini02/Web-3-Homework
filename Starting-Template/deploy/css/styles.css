@@ -488,15 +488,8 @@ header #search-bar > div form input {
 }
 header #search-bar > div form button {
   border: none;
-  background-color: var(--dark-blue);
-  border-radius: 5px;
-  padding: 16px 20px;
   cursor: pointer;
   transition: 0.25;
-}
-header #search-bar > div form button:hover {
-  background-color: var(--dark-orange);
-  color: var(--white);
 }
 header nav {
   margin-left: auto;
