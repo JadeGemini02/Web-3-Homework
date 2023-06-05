@@ -412,6 +412,19 @@ textarea {
   -webkit-appearance: none;
 }
 
+::placeholder {
+  color: var(--dark-blue);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--dark-blue);
+}
+
+::-ms-input-placeholder {
+  color: var(--dark-blue);
+}
+
 /* =============
     Navigation
 ============= */
@@ -447,19 +460,28 @@ nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav 
 }
 header #logo-nav {
   display: grid;
+  background-color: var(--dark-blue);
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". logo-nav .";
 }
 header #logo-nav > div {
-  background-color: var(--dark-blue);
   grid-area: logo-nav;
 }
 header #search-bar {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 0;
+}
+@media (min-width: 768px) {
+  header #search-bar {
+    padding: 24px 0;
+  }
+}
+@media (min-width: 1200px) {
+  header #search-bar {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 header #search-bar > div {
   grid-area: search;
@@ -489,8 +511,16 @@ header #search-bar > div form input {
 }
 header #search-bar > div form button {
   border: none;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  padding: 10px 16px;
   cursor: pointer;
-  transition: 0.25;
+  color: var(--white);
+  transition: 0.25s;
+  font-size: 1.875rem;
+}
+header #search-bar > div form button:hover {
+  background-color: var(--orange);
 }
 header nav {
   margin-left: auto;
@@ -504,18 +534,6 @@ header nav ul li {
 }
 header nav ul li a {
   color: black;
-}
-
-#logo {
-  grid-area: logo;
-}
-
-#burger-container {
-  grid-area: burger;
-}
-
-nav {
-  grid-area: nav;
 }
 
 /* =============

@@ -13,10 +13,10 @@ header{
 
     #logo-nav{
         display: grid;
+        background-color: var(--dark-blue); 
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". logo-nav .";
             >div{
-                background-color: var(--dark-blue);
                 grid-area: logo-nav;
             }
     }
@@ -25,11 +25,20 @@ header{
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". search .";
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding: 16px 0;
+
+        @include md{
+            padding: 24px 0;
+        }
+
+        @include xl{
+            grid-template-columns: auto 1200px auto;
+        }
 
         >div{
+
             grid-area: search;
+
             form{
                 display: flex;
 
@@ -41,7 +50,6 @@ header{
                     margin-right: 8px;
                     font-size: rem-calc(14);
                     color: var(--dark-blue);
-
 
                     @include md{
                         font-size: rem-calc(30);
@@ -55,13 +63,20 @@ header{
 
                 button{
                     border: none;
+                    background-color: var(--dark-blue);
+                    border-radius: 5px;
+                    padding: 10px 16px;
                     cursor: pointer;
-                    transition: 0.25;
+                    color: var(--white);
+                    transition: 0.25s;
+                    font-size: rem-calc(30);
+                    
+                    &:hover{
+                        background-color: var(--orange);
+                    }
                 }
-            }
-            
+            } 
         }
-
     }
 
     nav{
@@ -82,17 +97,3 @@ header{
         }
     }
 }
-
-
-    #logo{
-        grid-area: logo;
-    }
-
-    #burger-container{
-        grid-area: burger;
-    }
-
-    nav{
-        grid-area: nav;
-        
-    }
