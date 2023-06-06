@@ -343,6 +343,10 @@ ul li {
   list-style: none;
 }
 
+.hero {
+  width: 100%;
+}
+
 .icons {
   width: 11%;
   padding-bottom: 16px;
@@ -443,6 +447,10 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
   background-color: var(--dark-orange);
   color: var(--white);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* =============
@@ -577,41 +585,97 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
-#hero section {
-  width: 100%;
-}
-
-section {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-tickets .";
+#hero #hero-img {
+  background-image: url(.../img/RootsPicnicHero.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
 }
 @media (min-width: 768px) {
-  section {
-    grid-area: ". hero-tickets .";
-    grid-template-columns: repeat(2, auto);
-  }
-}
-@media (min-width: 1024px) {
-  section {
-    grid-area: ". hero-tickets .";
-    grid-template-columns: repeat(2, auto);
+  #hero #hero-img {
+    height: 40vh;
   }
 }
 @media (min-width: 1200px) {
-  section {
-    grid-area: ". hero-tickets .";
-    grid-template-columns: repeat(2, auto);
+  #hero #hero-img {
+    background-position: center 80%;
+    height: 55vh;
   }
 }
-section > div {
-  grid-area: hero-top;
-  grid-template-columns: 50%;
+@media (min-width: 768px) {
+  #hero #hero-bottom {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
 }
-section > div {
+@media (min-width: 1024px) {
+  #hero #hero-bottom {
+    grid-template-columns: 50% auto;
+  }
+}
+#hero #hero-bottom .bottom-card {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-bottom .";
+  color: white;
+  padding: 16px 0;
+}
+#hero #hero-bottom .bottom-card > div {
   grid-area: hero-bottom;
-  grid-template-columns: 50%;
+  display: flex;
+  align-items: center;
+}
+#hero #hero-bottom .bottom-card > div aside {
+  margin-left: auto;
+}
+#hero #hero-bottom .bottom-card > div aside a:link, #hero #hero-bottom .bottom-card > div aside a:visited {
+  display: flex;
+  color: white;
+  transition: 0.25s;
+}
+#hero #hero-bottom .bottom-card > div aside a:link:hover, #hero #hero-bottom .bottom-card > div aside a:link:active, #hero #hero-bottom .bottom-card > div aside a:visited:hover, #hero #hero-bottom .bottom-card > div aside a:visited:active {
+  color: var(--purple);
+}
+#hero #hero-bottom #bottom-left {
+  background-color: var(--black);
+}
+@media (min-width: 1200px) {
+  #hero #hero-bottom #bottom-left {
+    grid-template-columns: 30% auto 16px;
+  }
+}
+#hero #hero-bottom #bottom-left h1 {
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+@media (min-width: 1200px) {
+  #hero #hero-bottom #bottom-left h1 {
+    font-size: 1.5625rem;
+  }
+}
+#hero #hero-bottom #bottom-left p {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+@media (min-width: 1200px) {
+  #hero #hero-bottom #bottom-left p {
+    font-size: 1.125rem;
+  }
+}
+#hero #hero-bottom #bottom-right {
+  background-color: var(--dark-orange);
+}
+@media (min-width: 1200px) {
+  #hero #hero-bottom #bottom-right {
+    grid-template-columns: 16px auto 20%;
+  }
+}
+#hero #hero-bottom #bottom-right h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+#hero #hero-bottom #bottom-right h3 span {
+  font-weight: 700;
 }
 
 /* =============
@@ -648,46 +712,6 @@ section > div {
   color: var(--white);
   cursor: pointer;
   margin-top: 16px;
-}
-
-/* =============
-    Options
-============= */
-#options {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 0 auto 0;
-  grid-template-areas: ". options .";
-}
-#options > div {
-  grid-area: options;
-  display: grid;
-  grid-area: options;
-}
-@media (min-width: 768px) {
-  #options > div {
-    grid-template-rows: repeat(50%, 50%);
-  }
-}
-@media (min-width: 1024px) {
-  #options > div {
-    grid-template-rows: repeat(50%, 50%);
-  }
-}
-@media (min-width: 1200px) {
-  #options > div {
-    grid-template-rows: repeat(50%, 50%);
-  }
-}
-#options > div button {
-  color: white;
-  cursor: pointer;
-}
-#options > div button a:link,
-#options > div button a:visited {
-  text-decoration: none;
-  display: inline-block;
-  transition: 0.25s;
 }
 
 /* =============

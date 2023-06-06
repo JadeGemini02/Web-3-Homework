@@ -2,40 +2,101 @@
     Hero
 ============= */
 #hero{
-    section{
+    #hero-img{
+        background-image: url(.../img/RootsPicnicHero.jpg);
+        background-size: cover;
+        background-position: center;
         width: 100%;
-    }
-    
-}
 
-section{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-tickets .";
-    width: 100%;
+        @include md{
+            height: 40vh;
+        }
 
-    @include md{
-        grid-area: ". hero-tickets .";
-        grid-template-columns: repeat(2, auto);
+        @include xl{
+            background-position: center 80%;
+            height: 55vh;
+        }
     }
 
-    @include lg{
-        grid-area: ". hero-tickets .";
-        grid-template-columns: repeat(2, auto);
-    }
+    #hero-bottom{
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
 
-    @include xl{
-        grid-area: ". hero-tickets .";
-        grid-template-columns: repeat(2, auto);
-    }  
-    
-    >div{
-        grid-area: hero-top;
-        grid-template-columns: 50%;
-    }
+        @include lg{
+            grid-template-columns: 50% auto;
+        }
 
-    >div{
-        grid-area: hero-bottom;
-        grid-template-columns: 50%;
+        .bottom-card{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero-bottom .";
+            color: white;
+            padding: 16px 0;
+
+            >div{
+                grid-area: hero-bottom;
+                display: flex;
+                align-items: center;
+
+                aside{
+                    margin-left: auto;
+
+                    a:link, a:visited{
+                        display: flex;
+                        color: white;
+                        transition: 0.25s;
+
+                        &:hover, &:active{
+                        color: var(--purple);
+
+                        }
+                    }
+                }
+            }
+        }
+
+        #bottom-left{
+
+            background-color: var(--black);
+            @include xl{
+                grid-template-columns: 30% auto 16px;
+            }
+
+            h1{
+                font-size: rem-calc(18);
+                margin-bottom: 8px;
+
+                @include xl{
+                    font-size: rem-calc(25);
+                }
+            }
+
+            p{
+                font-weight: 600;
+                font-size: rem-calc(14);
+
+                @include xl{
+                    font-size: rem-calc(18);
+                }
+            }
+        }
+
+        #bottom-right{
+            background-color: var(--dark-orange);
+            @include xl{
+                grid-template-columns: 16px auto 20%;
+            }
+
+            h3{
+                font-weight: 400;
+                font-size: rem-calc(16);
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
     }
-}
+} 
+
