@@ -1,3 +1,18 @@
 /* =============
     Buttons
 ============= */
+
+.explore-button {
+    background-color: var(--magenta);
+    padding: 8px 16px;
+    display: inline-block;
+    transition: 0.25s;
+
+    &:hover{
+        background-color: var(--dark-blue);
+    }
+
+    a{
+        color: white;
+    }
+}

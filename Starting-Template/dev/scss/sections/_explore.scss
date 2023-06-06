@@ -5,7 +5,7 @@
 #explore{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". explore .";
+    grid-template-areas: ". sub-hero-card .";
 
     @include md {
         grid-template-columns: repeat(2, 1fr);
@@ -20,16 +20,63 @@
     }
 
     >div{
-        background-color: var(--blue);
-        grid-area: explore;
         display: grid;
-        grid-template-columns: 50% auto;
-    }
+        gap: 16px;
+        
+        @include md{
+            grid-area: sub-hero-card;
+            grid-template-columns: 50% auto;
+        }
+
+        .sub-hero-card{
+            background-color: var(--blue);
+            padding: 16px;
+            color: white;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            
+            aside{
+
+                section{
+                    h1{
+                        font-size: rem-calc(22);
+                        font-weight: 400; 
+                    }
+        
+                    a{
+                        margin-top: 8px;
+                    }
+        
+                    aside{
+                        margin-left: auto;
+                        width: 100%;
+
+                        @include xl{
+                            width: 20%;
+                        }
     
-    button{
-        background-color: var(--magenta);
-        color: var(--white);
-        cursor: pointer;
-        margin-top: 16px;
+                        background-position: center;
+                        background-size: cover;
+                        width: 100%;
+                        padding-bottom: 100%;
+                        border-radius: 100%;
+                        border: 3px solid white;
+                        overflow: hidden;
+        
+                        #sub-left-img{
+                            background-image: url("../img/travelicon.jpg");
+                            margin-left: auto;
+                                
+                        }
+            
+                        #sub-right-img{
+                            background-image: url("../img/festivalicon.jpg");
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -14,9 +14,20 @@ ul{
     width: 100%;
 }
 
-.icons{
-    width: 11%;
-    padding-bottom: 16px;
+.sub-hero-card{
+    background-color: var(--blue);
+    padding: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+    margin-left: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.sub-img{
+    margin-left: auto;
 }
 
 .main-logo{
@@ -31,14 +42,4 @@ ul{
     margin-bottom: 50px;
     border-bottom: 1px solid white;
     padding-bottom: 50px;
-}
-
-.early-bird{
-    background-color: var(--black);
-    width: 100%;
-}
-
-.vip{
-    background-color: var(--dark-orange);
-    width: 100%;
 }
